@@ -23,7 +23,7 @@ public class DataTypes {
         // char data type stores 2 bytes of data (due to unicode).
         char c = 'C';
         System.out.println("7. Char data type : " + c);
-        // boolean data type.
+        // boolean data type, it's size depends upon the JVM.
         boolean bool = false;
         System.out.println("8. Boolean data type : " + bool);
     }
