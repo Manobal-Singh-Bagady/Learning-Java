@@ -1,5 +1,3 @@
-package CodeWithMosh;
-
 public class Variables {
     public static void main(String[] args) {
         // Learning variables in java.

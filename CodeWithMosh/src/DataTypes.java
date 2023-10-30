@@ -1,5 +1,3 @@
-package CodeWithMosh;
-
 import java.util.Date;
 
 public class DataTypes {
@@ -69,8 +67,9 @@ public class DataTypes {
 
         boolean booleanType = true;
 
+        System.out.println("\n--------------------------------------------------");
         System.out
-                .print("A Program to Print Different Primitive data types:\n---------------------------------------\n");
+                .print("A Program to Print Different Primitive data types:\n--------------------------------------------------\n");
         System.out.println("- Byte -> " + byteType);
         System.out.println("- Short -> " + shortType);
         System.out.println("- Int -> " + intType);
