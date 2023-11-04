@@ -1,3 +1,5 @@
+package Basics;
+
 public class AddNums {
     public static void main(String[] args) {
         int a = 5;

@@ -1,3 +1,5 @@
+package Basics;
+
 public class DataTypes {
     public static void main(String[] args) {
         // total number of values that can be stored -> -2^(8*bytes)/2 to 2^(8*bytes)-1.

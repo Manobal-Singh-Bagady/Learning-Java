@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeWithHarry/CodeWithHarry.iml" filepath="$PROJECT_DIR$/CodeWithHarry/CodeWithHarry.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeWithMosh/CodeWithMosh.iml" filepath="$PROJECT_DIR$/CodeWithMosh/CodeWithMosh.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codeacademy/Codeacademy.iml" filepath="$PROJECT_DIR$/Codeacademy/Codeacademy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Learning-Java.iml" filepath="$PROJECT_DIR$/Learning-Java.iml" />
