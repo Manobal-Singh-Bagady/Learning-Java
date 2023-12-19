@@ -1,4 +1,4 @@
-package UltimateJavaCourse.Part1Fundamentals._1GettingStarted;
+package com.UltimateJavaCourse.Part1Fundamentals._1GettingStarted;
 
 public class _2AnatomyOfAJavaProgram {
     // public -> access modifier
