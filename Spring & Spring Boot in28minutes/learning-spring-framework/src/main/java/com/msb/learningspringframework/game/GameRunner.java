@@ -1,8 +1,8 @@
 package com.msb.learningspringframework.game;
 
 public class GameRunner {
-    private final MarioGame game;
-    public GameRunner(MarioGame game) {
+    private final GamingConsole game;
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
