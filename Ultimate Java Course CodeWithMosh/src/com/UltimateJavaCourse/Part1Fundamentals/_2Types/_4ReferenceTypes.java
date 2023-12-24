@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.UltimateJavaCourse.Part1Fundamentals._2Types;
 
 import java.util.Date;
 
