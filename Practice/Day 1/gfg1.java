@@ -1,8 +1,8 @@
-class Solution {
+class gfg1 {
 
     public static void main(String[] args) {
-        int[] nums = { 9, 7, 5, 3 };
-        int k = 6;
+        int[] nums = { 6, 14, 12, 14 };
+        int k = 2;
         System.out.println(canPair(nums, k));
     }
 
@@ -19,8 +19,8 @@ class Solution {
          */
         for (int i : nums) {
             int num = i % k;
-            if (freq[k - num] != 0) {
-                freq[k - num]--;
+            if (freq[(k - num)%k] != 0) {
+                freq[(k - num)%k]--;
             } else {
                 freq[num]++;
             }
