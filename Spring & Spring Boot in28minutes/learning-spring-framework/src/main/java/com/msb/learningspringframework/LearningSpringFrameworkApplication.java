@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication
 @RestController
+@SpringBootApplication
 public class LearningSpringFrameworkApplication{
     public static void main(String[] args) {
         // Start the Spring Application.
@@ -26,6 +26,14 @@ public class LearningSpringFrameworkApplication{
         return new Object() {
             public final String title = "Hello World!";
             public final String message = String.format("Hello %s, Welcome to Spring Boot!", name);
+        };
+    }
+
+    @GetMapping("/age")
+    public Object hello(@RequestParam(defaultValue = "10") int age) {
+        return new Object() {
+            public final String title = "Hello World!";
+            public final String message = String.format("Hello %d, Welcome to Spring Boot!", age);
         };
     }
 }
